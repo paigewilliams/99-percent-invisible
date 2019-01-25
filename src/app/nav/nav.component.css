@@ -61,4 +61,11 @@
   font-weight: 1200;
   letter-spacing: .08em;
   line-height: 1;
+  box-sizing: inherit;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
