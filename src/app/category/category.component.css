@@ -1,0 +1,9 @@
+.category {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  display: block;
+  height: 255px;
+  width: 720px;
+  background-color: #ffb6a9;
+}
