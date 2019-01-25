@@ -1,4 +1,4 @@
-# PercentInvisible
+#  99 Percent Invisible Clone
 
 #### January 25th, 2019
 
@@ -9,6 +9,8 @@
 ## Description
 
 This is a an exercise in re-building a site using Angular. This is an attempt to replicate the beautiful [99% invisible site](https://99percentinvisible.org/). I chose this site because I love the design, and I felt that the complexity of it would be a good challenge. The small details like audio footer that follows as you scroll through the page and the tasteful hover effects create simple intrigue to the site.
+
+THIS IS A REPLICA AND IS NOT THE REAL SITE! THIS WAS CREATED FOR EDUCATIONAL PURPOSES!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -27,13 +29,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Desired Features
 
-  [ ] Deployed to Firebase
-  [ ] Database with podcasts and articles
-  [ ] Pipes to filter podcasts and articles -- functional search bar
-  [ ] Embedded audio
-  [ ] Replicate playlist footer
-  [ ] Implement [Listen Notes API](https://www.listennotes.com/api/)
-  [ ] Create animation with logo
+- [ ] Deployed to Firebase
+- [ ] Database with podcasts and articles
+- [ ] Pipes to filter podcasts and articles -- functional search bar and links to filer by category
+- [ ] Embedded audio
+- [ ] Replicate playlist footer
+- [ ] Implement [Listen Notes API](https://www.listennotes.com/api/)
+- [ ] Create animation with logo
 
 
 
