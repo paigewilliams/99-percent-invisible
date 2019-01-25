@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { BodyComponent } from './body/body.component';
+import { CategoryComponent } from './category/category.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { BodyComponent } from './body/body.component';
     AppComponent,
     NavComponent,
     FeaturedComponent,
-    BodyComponent
+    BodyComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule
