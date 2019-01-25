@@ -2,8 +2,40 @@
 
 #### January 25th, 2019
 
+## Contributors
+
+### **Paige Williams**
+
+## Description
+
+This is a an exercise in re-building a site using Angular. This is an attempt to replicate the beautiful [99% invisible site](https://99percentinvisible.org/). I chose this site because I love the design, and I felt that the complexity of it would be a good challenge. The small details like audio footer that follows as you scroll through the page and the tasteful hover effects create simple intrigue to the site.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+## Planning
+
+  1. Draw a diagram of the site
+
+  2. Draw the flow of the components
+
+  3. Begin building components
+
+  4. Create Layout of page with components
+
+  5. Build out individual components
+
+
+### Desired Features
+
+  [ ] Deployed to Firebase
+  [ ] Database with podcasts and articles
+  [ ] Pipes to filter podcasts and articles -- functional search bar
+  [ ] Embedded audio
+  [ ] Replicate playlist footer
+  [ ] Implement [Listen Notes API](https://www.listennotes.com/api/)
+  [ ] Create animation with logo
+
+
 
 ## Development server
 
