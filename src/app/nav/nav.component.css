@@ -45,3 +45,15 @@
   padding-inline-start: 40px;
   margin-left: 144px;
 }
+
+.menu-item {
+  margin: 0 26px;
+  display: inline-block;
+  color: #231f20;
+    font-size: 17px;
+    display: inline-block;
+    text-indent: 2px;
+    border-bottom: 6px solid;
+    border-color: #4d4d4d;
+    padding: 0 0 5px;
+}
