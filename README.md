@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a an exercise in re-building a site using Angular. This is an attempt to replicate the beautiful [99% invisible site](https://99percentinvisible.org/). I chose this site because I love the design, and I felt that the complexity of it would be a good challenge. The small details like audio footer that follows as you scroll through the page and the tasteful hover effects create simple intrigue to the site.
+This is a an exercise in re-building a site using Angular. This is an attempt to replicate the beautiful [99% invisible](https://99percentinvisible.org/) site. I chose this site because I love the design, and I felt that the complexity of it would be a good challenge. The small details like audio footer that follows as you scroll through the page and the tasteful hover effects create simple intrigue to the site.
 
 THIS IS A REPLICA AND IS NOT THE REAL SITE! THIS WAS CREATED FOR EDUCATIONAL PURPOSES!
 
@@ -41,6 +41,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [ ] Implement [Listen Notes API](https://www.listennotes.com/api/)
 - [ ] Create animation with logo
 
+
+## Objectives
+
+- [ ] Project includes a **detailed** README with information on all completed features as well as features to be added.
+- [ ] Project includes a **detailed** commit history that clearly shows at least eight hours of work between 8 and 5 on Friday. You are also welcome to put additional work into your project outside of that time frame.
+- [ ] Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
 
 ## Development server
