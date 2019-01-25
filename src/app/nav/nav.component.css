@@ -9,7 +9,7 @@
 .search-bar {
   background-color: #4d4d4d;
   display: block;
-  /* z-index: 1; */
+  z-index: 1;
   height: 38px;
   position: relative;
   flex: 1;
@@ -18,5 +18,10 @@
 #logo {
   width: 132px;
   height: 132px;
-  z-index: 3;
+  position: relative;
+  border: 1px solid #595a5c;
+  z-index: 1;
+  float: left;
+  margin-left: 10px;
+  margin-top: -26px;
 }
