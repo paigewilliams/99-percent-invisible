@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
+import { FeaturedComponent } from './featured/featured.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    FeaturedComponent
   ],
   imports: [
     BrowserModule
