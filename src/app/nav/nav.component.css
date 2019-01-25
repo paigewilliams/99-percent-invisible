@@ -26,9 +26,22 @@
   margin-top: -26px;
 }
 
-#facebook {
-  /* height: 10px;
-  width: 10px; */
+#search {
+  background: transparent;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  color: white;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  margin-top: 1em;
+}
+
+.search-bar-form {
+  position: absolute;
+  left: 190px;
+  box-sizing: inherit;
+  display: block;
 }
 
 .links {
