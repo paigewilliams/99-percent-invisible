@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './body.component.html',
   styleUrls: ['./body.component.css']
 })
-export class BodyComponent implements OnInit {
+export class BodyComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  
 
 }
