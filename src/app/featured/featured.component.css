@@ -82,6 +82,14 @@
   line-height: 2;
 }
 
+.post-image {
+  max-width: 728px;
+  width: 100%;
+  min-height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
