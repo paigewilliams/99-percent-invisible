@@ -18,7 +18,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
   1. Draw a diagram of the site
 
+  ![alt text](https://github.com/paigewilliams/99-percent-invisible/blob/master/layout-design.jpg)
+
   2. Draw the flow of the components
+
+  ![alt text](https://github.com/paigewilliams/99-percent-invisible/blob/master/components-flow.jpg)
 
   3. Begin building components
 
