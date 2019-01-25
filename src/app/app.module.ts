@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { BodyComponent } from './body/body.component';
 import { CategoryComponent } from './category/category.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CategoryComponent } from './category/category.component';
     NavComponent,
     FeaturedComponent,
     BodyComponent,
-    CategoryComponent
+    CategoryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
