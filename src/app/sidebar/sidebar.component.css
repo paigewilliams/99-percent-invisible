@@ -1,0 +1,37 @@
+@media screen and (min-width: 1100px)
+{.sidebar { 
+  display: block;
+  width: 300px;
+}}
+
+/* .sidebar {
+  display: none;
+} */
+
+.widget {
+  margin-bottom: 55px;
+}
+
+.widget-content {
+  margin: auto;
+  text-align: center; 
+}
+
+.widget-explore {
+  margin-bottom: 55px;
+}
+
+.widget-head {
+  letter-spacing: .12em;
+  border-bottom-width: 6px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 211, 0);
+  padding: 12px 12px 6px;
+  margin-bottom: 24px;
+}
+
+h4 {
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 .75em;
+}
