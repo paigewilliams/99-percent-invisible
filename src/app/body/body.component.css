@@ -1,12 +1,28 @@
-.body {
-  width: 720px;
-  height: 2000px;
+@media screen (min-width: 1100px)
+.oc {
+  max-width: 68em;
+}
+
+.oc {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  display: block;
-  background-color: #ff9147;
+  padding: 0 10px;
+}
+
+.content {
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: inherit;
+}
+
+.main {
+  margin-bottom: 80px;
+  max-width: 100%;
+  width: 728px;
+}
+
+.episode-blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
