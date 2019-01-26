@@ -1,0 +1,11 @@
+.page {
+  flex: 1;
+  position: relative;
+}
+
+.grid {
+  height: 225px;
+  background-image: url('./../assets/img/grid.png');
+  margin-top: -85px;
+  margin-bottom: -40px;
+}
