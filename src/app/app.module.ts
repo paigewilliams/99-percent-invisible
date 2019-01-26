@@ -8,6 +8,7 @@ import { FeaturedComponent } from './featured/featured.component';
 import { BodyComponent } from './body/body.component';
 import { CategoryComponent } from './category/category.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     FeaturedComponent,
     BodyComponent,
     CategoryComponent,
-    FooterComponent
+    FooterComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

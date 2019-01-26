@@ -8,4 +8,6 @@
   background-image: url('./../assets/img/grid.png');
   margin-top: -85px;
   margin-bottom: -40px;
+  margin-left: auto;
+  margin-right: auto;
 }
