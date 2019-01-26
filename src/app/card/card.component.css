@@ -70,3 +70,24 @@ background-image: url('./../../assets/img/post-img.jpg');
   line-height: 1;
   font-weight: 700;
 }
+
+.post-category {
+  color: #231f20;
+  display: inline-block;
+  padding: 6px 8px 6px 6px;
+}
+
+.post-actions {
+  float: right;
+}
+
+.action-row {
+  position: relative;
+  top: 6px;
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
