@@ -9,6 +9,7 @@ import { BodyComponent } from './body/body.component';
 import { CategoryComponent } from './category/category.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CardComponent } from './card/card.component';
     BodyComponent,
     CategoryComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
