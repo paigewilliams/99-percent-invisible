@@ -18,6 +18,11 @@ position: relative;
 display: flex;
 align-items: flex-end;
 justify-content: center;
+background-image: url('./../../assets/img/post-img.jpg');
+}
+
+.inner-text {
+  width: 80%;
 }
 
 .post-label {
@@ -32,4 +37,36 @@ justify-content: center;
   position: relative;
   display: inline-block;
   margin-top: .75em;
+  line-height: 1.2;
+}
+
+.post-title {
+  width: 100%;
+  font-size: 18px;
+  background-color: hsla(0,0%,100%,.9);
+  margin-bottom: 0px;
+  margin-top: -10px;
+  padding: 18px 14px 8px;
+}
+
+.post-metabox {
+  width: 78%;
+  position: relative;
+  margin: -1px auto 0;
+  border-top: 1px solid #231f20;
+}
+
+.post-date {
+  border-right: 1px solid #231f20;
+  display: inline-block;
+  padding: 6px 8px 6px 6px;
+}
+
+.meta-label {
+  letter-spacing: .05em;
+  font-size: 6.5px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  line-height: 1;
+  font-weight: 700;
 }
