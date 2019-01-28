@@ -9,6 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   box-sizing: inherit;
+  display: flex;
 }
 
 .main {
