@@ -35,3 +35,38 @@ h4 {
   line-height: 1.2;
   margin: 0 0 .75em;
 }
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category {
+  width: 142px;
+  color: #231f20;
+  margin-bottom: 24px;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  letter-spacing: .02em;
+  font-size: 11px;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  border: 1px solid #231f20;
+  background: #fff;
+  display: flex;
+}
