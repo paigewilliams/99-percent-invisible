@@ -1,9 +1,60 @@
-.category {
+#category {
+  padding-bottom: 40px;
+}
+
+.grid {
+  height: 225px;
+  background-image: url('./../../assets/img/grid.png');
+}
+
+.oc {
+  max-width: 71.875em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
-  display: block;
-  height: 255px;
-  width: 720px;
-  background-color: #ffb6a9;
+}
+.categories {
+  padding: 70px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.category {
+  margin: 0 8px;
+  display: flex;
+  color: #231f20;
+  font-weight: 600;
+  letter-spacing: .02em;
+  font-size: 11px;
+  font-style: italic;
+  flex-direction: column;
+}
+
+.icon {
+  width: 92px;
+  height: 92px;
+  border: 1px solid #231f20;
+  background: #fff;
+  display: flex;
+}
+
+.text {
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px auto;
+  color: #231f20;
+  background: #fff;
+  text-align: center;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  background-color: none;
 }
