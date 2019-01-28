@@ -73,7 +73,10 @@
   letter-spacing: .08em;
   line-height: 1;
   box-sizing: inherit;
+}
 
+.menu-item:hover {
+  border-bottom: 6px solid #ffd300;
 }
 
 a {
