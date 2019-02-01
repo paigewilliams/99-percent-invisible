@@ -35,12 +35,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   #### To do next Friday:
 
 
-  7. Connect to a database
+  7. Make API call to Listen API that returns 10 99% Invisible Episodes
 
-  8. Populate database with podcast and article data
+  8. Create an Episode Object for each episode with the following properties:
+    - audio
+    - description
+    - pub_date_ms
+    - title
 
-  9. Create pipes to filter by category -- episode cards will be updated based on filter
+  9. Save each episode in firebase Database
 
+  10. For each item in database create a card component
+
+  11. Populate card component with properties
+
+  12. Create an episode route for each episodes
+
+  13. Embed audio into card component  
 
 
 ### Desired Features
@@ -50,7 +61,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [ ] Pipes to filter podcasts and articles -- functional search bar and links to filter by category
 - [ ] Embedded audio
 - [ ] Replicate playlist footer
-- [ ] Implement [Listen Notes API](https://www.listennotes.com/api/)
+- [x] Implement [Listen Notes API](https://www.listennotes.com/api/)
 - [ ] Create animation with logo
 - [ ] Create view for episodes and articles
 - [ ] Dynamic routing to specific episode view
