@@ -9,7 +9,12 @@ export class EpisodeService {
   constructor(private database: AngularFireDatabase){
     this.episodes = database.list('episodes')
   }
-    addEpisode(newEpisode: Episode){
-      this.episodes.push(newEpisode)
-    }
+
+  addEpisode(newEpisode: Episode){
+    this.episodes.push(newEpisode)
+  }
+
+  getEpisodes(){
+    return this.episodes;
+  }
 }

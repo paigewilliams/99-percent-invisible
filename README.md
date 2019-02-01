@@ -57,7 +57,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Desired Features
 
 - [ ] Deployed to Firebase
-- [ ] Database with podcasts and articles
+- [x] Database with podcasts and articles
 - [ ] Pipes to filter podcasts and articles -- functional search bar and links to filter by category
 - [ ] Embedded audio
 - [ ] Replicate playlist footer
