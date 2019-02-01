@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Episode } from '../models/episode.model';
 
 @Component({
   selector: 'app-card',
@@ -6,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-
+  @Input() selectedEpisode
 
 }
