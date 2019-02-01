@@ -29,17 +29,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   4. Create Layout of page with components
 
   5. Build out individual components
-  
+
   6. Style individual components
-  
+
   #### To do next Friday:
-  
+
+
   7. Connect to a database
-  
+
   8. Populate database with podcast and article data
-  
+
   9. Create pipes to filter by category -- episode cards will be updated based on filter
-  
+
 
 
 ### Desired Features
@@ -86,6 +87,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Legal 
+## Legal
 
 Copyright (c) 2019 Paige Williams

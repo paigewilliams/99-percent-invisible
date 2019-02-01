@@ -17,7 +17,6 @@ export class BodyComponent implements OnInit {
 
   getPodcasts(){
     this.podcastService.getEpisodes().subscribe(response => {
-      console.log(response)
       this.episodes = response
     })
   }
