@@ -13,4 +13,11 @@ export class CardComponent implements OnInit {
 
   }
 
+  playAudio(){
+    console.log("click")
+    let audio = new Audio();
+    audio.src = this.selectedEpisode.audio;
+    audio.load();
+    audio.play();
+  }
 }
