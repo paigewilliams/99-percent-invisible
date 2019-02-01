@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FeaturedComponent } from './featured/featured.component';
@@ -10,7 +10,7 @@ import { CategoryComponent } from './category/category.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-
+import { PodcastApiService } from './podcast-api.service';
 
 @NgModule({
   declarations: [
@@ -25,9 +25,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [PodcastApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
