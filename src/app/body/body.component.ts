@@ -7,18 +7,6 @@ import { PodcastApiService } from '../podcast-api.service';
   styleUrls: ['./body.component.css'],
   providers: [PodcastApiService]
 })
-export class BodyComponent implements OnInit {
-  episodes: Object = null;
-  constructor( private podcastService: PodcastApiService ){}
+export class BodyComponent  {
 
-  ngOnInit(){
-    this.getPodcasts()
-  }
-
-  getPodcasts(){
-    this.podcastService.getEpisodes().subscribe(response => {
-      this.episodes = response
-      console.log(this.episodes)
-    })
-  }
 }
