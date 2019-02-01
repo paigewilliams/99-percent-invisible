@@ -1,18 +1,10 @@
 <div class="oc">
   <div class="content">
     <div class="main">
-      <div class="episode-blocks">
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
+      <div *ngFor="let episode of episodes | async"  class="episode-blocks">
+        <app-card [selectedEpisode]="episode"></app-card>
       </div>
     </div>
     <app-sidebar></app-sidebar>
   </div>
 </div>
-
-<!-- <div *ngFor="let episode of episodes | async">
-  <h3>{{episode.title}}</h3>
-
-</div> -->

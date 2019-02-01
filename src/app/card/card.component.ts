@@ -6,7 +6,11 @@ import { Episode } from '../models/episode.model';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-export class CardComponent {
+export class CardComponent implements OnInit {
   @Input() selectedEpisode
+
+  ngOnInit(){
+
+  }
 
 }
