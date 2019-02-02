@@ -51,9 +51,7 @@ View the app deployed [here!](https://percent-invisible.firebaseapp.com/)
 
   11. Populate card component with properties
 
-  12. Create an episode route for each episodes
-
-  13. Embed audio into card component  
+  12. Embed audio into card component  
 
 
 ### Desired Features
