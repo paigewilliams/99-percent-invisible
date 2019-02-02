@@ -34,7 +34,7 @@ View the app deployed [here!](https://percent-invisible.firebaseapp.com/)
 
   6. Style individual components
 
-  #### To do next Friday:
+  #### To do 2/1:
 
 
   7. Make API call to Listen API that returns 10 99% Invisible Episodes
@@ -53,6 +53,17 @@ View the app deployed [here!](https://percent-invisible.firebaseapp.com/)
 
   12. Embed audio into card component  
 
+  #### Next steps:
+
+  13. Create routes for each episode
+
+  14. Create route episode page that has card components
+
+  15. Add categories for each episodes
+
+  16. Order by category
+
+  17. Replicate playlist footer
 
 ### Desired Features
 
