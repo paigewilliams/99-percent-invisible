@@ -14,6 +14,8 @@ THIS IS A REPLICA AND IS NOT THE REAL SITE! THIS WAS CREATED FOR EDUCATIONAL PUR
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+View the app deployed [here!](https://percent-invisible.firebaseapp.com/)
+
 ## Planning
 
   1. Draw a diagram of the site
@@ -56,10 +58,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Desired Features
 
-- [ ] Deployed to Firebase
+- [x] Deployed to Firebase
 - [x] Database with podcasts and articles
 - [ ] Pipes to filter podcasts and articles -- functional search bar and links to filter by category
-- [ ] Embedded audio
+- [x] Embedded audio
 - [ ] Replicate playlist footer
 - [x] Implement [Listen Notes API](https://www.listennotes.com/api/)
 - [ ] Create animation with logo
@@ -69,9 +71,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Objectives
 
-- [ ] Project includes a **detailed** README with information on all completed features as well as features to be added.
-- [ ] Project includes a **detailed** commit history that clearly shows at least eight hours of work between 8 and 5 on Friday. You are also welcome to put additional work into your project outside of that time frame.
-- [ ] Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
+- [x] Project includes a **detailed** README with information on all completed features as well as features to be added.
+- [x] Project includes a **detailed** commit history that clearly shows at least eight hours of work between 8 and 5 on Friday. You are also welcome to put additional work into your project outside of that time frame.
+- [x] Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
 
 ## Development server
