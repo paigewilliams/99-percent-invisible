@@ -8,16 +8,22 @@ import { Episode } from '../models/episode.model';
 })
 export class CardComponent implements OnInit {
   @Input() selectedEpisode
+  play: boolean = false
+  audio: any;
 
   ngOnInit(){
-
+    this.audio = new Audio();
+    this.audio.src = this.selectedEpisode.audio;
   }
 
   playAudio(){
-    console.log("click")
-    let audio = new Audio();
-    audio.src = this.selectedEpisode.audio;
-    audio.load();
-    audio.play();
+    this.audio.load();
+    this.audio.play();
+    this.play = true;
   }
+
+  pauseAudio(){
+    this.audio.pause();
+  }
+
 }

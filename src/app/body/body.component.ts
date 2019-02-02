@@ -20,7 +20,7 @@ export class BodyComponent implements OnInit  {
 
   getEpisodes(){
     this.episodes.subscribe(episodes => {
-      console.log(episodes)
+
       return episodes;
     })
   }

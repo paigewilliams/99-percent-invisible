@@ -15,6 +15,6 @@
       "es2017",
       "dom"
     ],
-    "tyoes": [ "firebase" ]
+    "types": [ "firebase" ]
   }
 }
