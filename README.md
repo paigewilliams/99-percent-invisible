@@ -84,12 +84,23 @@ View the app deployed [here!](https://percent-invisible.firebaseapp.com/)
 - [x] Project includes a **detailed** commit history that clearly shows at least eight hours of work between 8 and 5 on Friday. You are also welcome to put additional work into your project outside of that time frame.
 - [x] Project demonstrates understanding of this week's concepts. If prompted, you are able to discuss your code with an instructor using correct terminology.
 
+## Setup and Installation
 
-## Development server
+### Building the Project
+
+ -  In the terminal, navigate to local directory and run:
+ ```console
+ git clone https://github.com/paigewilliams/99-percent-invisible.git
+ ```
+- In the terminal, go to project directory and install dependencies with:
+```console
+npm install -g angular/cli@1.6.5
+```
+### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
